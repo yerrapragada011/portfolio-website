@@ -4,7 +4,11 @@ import './Header.css'
 function Header() {
   return (
     <header className='header'>
-      <h1>Agasthya Yerrapragada</h1>
+      <div>
+        <p>
+          <a href='#main'>&#129302;</a>
+        </p>
+      </div>
       <nav>
         <ul>
           <li>
