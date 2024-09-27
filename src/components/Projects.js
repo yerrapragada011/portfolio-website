@@ -4,14 +4,14 @@ import './Projects.css'
 function Projects() {
   const projectList = [
     {
-      title: 'Project One',
+      title: 'Social Media App',
       description: 'Description for project one',
-      link: '#'
+      link: 'https://social-media-six-kappa.vercel.app/'
     },
     {
-      title: 'Project Two',
+      title: 'Blog API',
       description: 'Description for project two',
-      link: '#'
+      link: 'https://blog-api-yr9v.vercel.app/'
     }
   ]
 
