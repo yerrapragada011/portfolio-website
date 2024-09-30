@@ -19,13 +19,18 @@ function Projects() {
 
   return (
     <section id='projects' className='projects roboto-regular'>
-      <h2>My Projects</h2>
+      <h2 className='roboto-regular'>My Projects</h2>
       <div className='project-grid'>
         {projectList.map((project, index) => (
           <div className='project-card' key={index}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target='_blank' rel='noopener noreferrer'>
+            <h3 className='roboto-regular'>{project.title}</h3>
+            <p className='roboto-regular'>{project.description}</p>
+            <a
+              className='roboto-regular'
+              href={project.link}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               View Project
             </a>
           </div>

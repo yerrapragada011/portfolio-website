@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
   return (
     <section id='contact' className='contact roboto-regular'>
-      <h2>Contact Me</h2>
+      <h2 className='roboto-regular'>Contact Me</h2>
       <form>
         <input type='text' placeholder='Your Name' required />
         <input type='email' placeholder='Your Email' required />
