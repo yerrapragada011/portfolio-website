@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Header.css'
 
 function Header() {
+  const [showHeader, setShowHeader] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowHeader(true)
+    }, 3000)
+
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
-    <header className='header'>
+    <header className={`header ${showHeader ? 'fade-in' : ''}`}>
       <div>
         <p>
           <a href='#main'>
-            <span class='material-symbols-outlined'>home</span>
+            <span className='material-symbols-outlined'>home</span>
           </a>
         </p>
       </div>

@@ -7,7 +7,7 @@ function Main() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowArrow(true)
-    }, 5000) 
+    }, 3000) 
 
     return () => clearTimeout(timer)
   }, [])

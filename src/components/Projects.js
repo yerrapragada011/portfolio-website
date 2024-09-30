@@ -5,12 +5,14 @@ function Projects() {
   const projectList = [
     {
       title: 'Social Media App',
-      description: 'Description for project one',
+      description:
+        'An application that allows users to register, login, or login with GitHub. Includes all CRUD operations for posts, comments, followers, and likes.',
       link: 'https://social-media-six-kappa.vercel.app/'
     },
     {
       title: 'Blog API',
-      description: 'Description for project two',
+      description:
+        'An appliation that listens to two seperate frontends. A reader frontend that allows you register, login, view blog posts, and add comments. And an author frontend that allows CRUD operations for posts.',
       link: 'https://blog-api-yr9v.vercel.app/'
     }
   ]

@@ -11,7 +11,7 @@ import Space from './components/Space'
 function App() {
   return (
     <div className='App'>
-      <Space /> 
+      <Space />
       <Header />
       <Main />
       <main>

@@ -13,22 +13,32 @@
 }
 
 .main p {
-  margin-left: 0;
   align-self: center;
   font-size: 1.5rem;
   color: lightgray;
 }
 
 .arrow {
-  margin-top: 20px;
+  margin-top: 400px;
   cursor: pointer;
   transition: transform 0.3s;
   opacity: 0;
   transition: opacity 0.5s ease-in;
+  animation: moveUpDown 2s ease-in-out infinite;
 }
 
 .fade-in {
   opacity: 1;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 .arrow:hover {

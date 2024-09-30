@@ -9,12 +9,25 @@
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.header.fade-in {
+  opacity: 1;
 }
 
 .header div {
   display: flex;
   margin: 0;
   padding: 0;
+  position: relative;
+  transition: transform 0.3s ease, text-decoration 0.3s ease;
+}
+
+.header div:hover {
+  transform: translateY(5px);
+  text-decoration: underline;
 }
 
 .header div p {
@@ -41,9 +54,22 @@
   margin-right: 50px;
 }
 
+.header nav ul li {
+  transition: transform 0.3s ease;
+}
+
 .header nav ul a {
   text-decoration: none;
   font-size: 1.5rem;
   color: lightgray;
   opacity: 1;
+  transition: text-decoration 0.3s ease;
+}
+
+.header nav ul a:hover {
+  text-decoration: underline;
+}
+
+.header nav ul li:hover {
+  transform: translateY(5px);
 }

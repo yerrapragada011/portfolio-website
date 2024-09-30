@@ -20,7 +20,7 @@ function Space() {
       }, 5000)
     }
 
-    const interval = setInterval(createStar, 10)
+    const interval = setInterval(createStar, .001)
 
     return () => clearInterval(interval)
   }, [])
