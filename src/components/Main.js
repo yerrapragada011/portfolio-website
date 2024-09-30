@@ -19,7 +19,7 @@ function Main() {
       <div
         className={`arrow ${showArrow ? 'fade-in' : ''}`}
         onClick={() =>
-          window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
+          document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
         }
       >
         <svg
