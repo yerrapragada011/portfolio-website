@@ -1,6 +1,6 @@
 .about {
   padding: 50px 20px;
-  background-color: #f4f4f9;
+  background-color: transparent;
   text-align: center;
   min-height: 100vh;
   display: flex;
@@ -11,12 +11,12 @@
 .about h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: lightgray;
 }
 
 .about p {
   font-size: 1.2rem;
-  color: #555;
+  color: lightgray;
   line-height: 1.8;
   max-width: 800px;
   margin: 0 auto;

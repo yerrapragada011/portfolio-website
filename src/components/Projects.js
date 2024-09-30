@@ -16,7 +16,7 @@ function Projects() {
   ]
 
   return (
-    <section id='projects' className='projects'>
+    <section id='projects' className='projects roboto-regular'>
       <h2>My Projects</h2>
       <div className='project-grid'>
         {projectList.map((project, index) => (

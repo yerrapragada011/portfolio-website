@@ -3,7 +3,7 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <section id='contact' className='contact'>
+    <section id='contact' className='contact roboto-regular'>
       <h2>Contact Me</h2>
       <form>
         <input type='text' placeholder='Your Name' required />

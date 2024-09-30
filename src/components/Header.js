@@ -6,19 +6,27 @@ function Header() {
     <header className='header'>
       <div>
         <p>
-          <a href='#main'>&#129302;</a>
+          <a href='#main'>
+            <span class='material-symbols-outlined'>home</span>
+          </a>
         </p>
       </div>
       <nav>
         <ul>
           <li>
-            <a href='#about'>About</a>
+            <a href='#about' className='roboto-regular'>
+              About
+            </a>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <a href='#projects' className='roboto-regular'>
+              Projects
+            </a>
           </li>
           <li>
-            <a href='#contact'>Contact</a>
+            <a href='#contact' className='roboto-regular'>
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
