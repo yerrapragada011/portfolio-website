@@ -21,7 +21,6 @@
 .arrow {
   margin-top: 400px;
   cursor: pointer;
-  transition: transform 0.3s;
   opacity: 0;
   transition: opacity 0.5s ease-in;
   animation: moveUpDown 2s ease-in-out infinite;
@@ -42,6 +41,6 @@
 }
 
 .arrow:hover {
-  transition: transform 0.3s;
   transform: translateY(5px);
+  animation: none;
 }
