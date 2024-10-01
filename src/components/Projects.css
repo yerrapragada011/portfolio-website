@@ -1,7 +1,6 @@
 .projects {
   padding: 50px 20px;
   background-color: transparent;
-  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,17 +22,22 @@
 }
 
 .project-card {
+  display: flex;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid lightgray;
-  text-align: left;
   transition: transform 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(5px);
+}
+
+.project-details {
+  flex: 1;
+  margin-right: 20px;
 }
 
 .project-card h3 {
@@ -46,16 +50,6 @@
   color: lightgray;
   font-size: 1rem;
   margin-bottom: 15px;
-}
-
-.project-card a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.project-card a:hover {
-  text-decoration: underline;
 }
 
 .project-links {
@@ -72,10 +66,48 @@
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 5px;
+  font-size: 1rem;
 }
 
 .project-button:hover {
   background-color: darkgray;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border: 1px solid lightgray;
+}
+
+.project-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.project-icon {
+  margin: 0 5px;
+  color: lightgray;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.project-icon:hover {
+  color: white;
 }
 
 @media (prefers-color-scheme: light) {
@@ -100,5 +132,17 @@
 
   .project-button:hover {
     background-color: lightgray;
+  }
+
+  .project-image {
+    border: 1px solid black;
+  }
+
+  .project-icon {
+    color: black;
+  }
+
+  .project-icon:hover {
+    color: darkgray;
   }
 }
