@@ -18,6 +18,20 @@
   color: lightgray;
 }
 
+@media (prefers-color-scheme: light) {
+  .main h1 {
+    color: black;
+  }
+
+  .main p {
+    color: black;
+  }
+
+  .arrow svg path {
+    stroke: black;
+  }
+}
+
 .arrow {
   margin-top: 400px;
   cursor: pointer;

@@ -19,6 +19,12 @@
   animation: fadeInOut 5s linear forwards;
 }
 
+@media (prefers-color-scheme: light) {
+  .star {
+    background-color: black;
+  }
+}
+
 @keyframes fadeInOut {
   0% {
     opacity: 0;

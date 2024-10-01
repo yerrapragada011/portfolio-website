@@ -21,3 +21,13 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+@media (prefers-color-scheme: light) {
+  .about h2 {
+    color: black;
+  }
+
+  .about p {
+    color: black;
+  }
+}

@@ -14,6 +14,18 @@ function Projects() {
       description:
         'An appliation that listens to two seperate frontends. A reader frontend that allows you register, login, view blog posts, and add comments. And an author frontend that allows CRUD operations for posts.',
       link: 'https://blog-api-yr9v.vercel.app/'
+    },
+    {
+      title: 'Messaging App',
+      description:
+        'An appliation that allows users to register, login, and view messages. Includes operations to send, recieve, and delete messages.',
+      link: 'https://messaging-app-mauve.vercel.app/'
+    },
+    {
+      title: `Where's Waldo?`,
+      description:
+        'A game application that allows users to select an area on a picture to find Waldo and his friends. Users who find all characters and beat the game, get added to the leaderboard.',
+      link: 'https://wheres-waldo-mu.vercel.app/'
     }
   ]
 

@@ -3,6 +3,9 @@
   background-color: transparent;
   text-align: center;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact h2 {
@@ -50,4 +53,19 @@
 
 .contact button:hover {
   background-color: #0056b3;
+}
+
+@media (prefers-color-scheme: light) {
+  .contact h2 {
+    color: black;
+  }
+
+  .contact input,
+  .contact textarea {
+    border: 1px solid black;
+  }
+
+  .contact button {
+    color: white;
+  }
 }
