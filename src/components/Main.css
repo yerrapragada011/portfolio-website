@@ -57,4 +57,5 @@
 .arrow:hover {
   transform: translateY(5px);
   animation: none;
+  stroke: whitesmoke;
 }

@@ -31,6 +31,10 @@ main {
   font-size: 2.5rem;
 }
 
+.material-symbols-outlined:hover {
+  color: whitesmoke;
+}
+
 @media (prefers-color-scheme: light) {
   html {
     background-color: #fff;

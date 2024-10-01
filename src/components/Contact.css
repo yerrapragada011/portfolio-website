@@ -14,58 +14,32 @@
   color: lightgray;
 }
 
-.contact form {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.contact input,
-.contact textarea {
-  padding: 15px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
-}
-
-.contact input[type='text'],
-.contact input[type='email'] {
-  height: 50px;
-}
-
-.contact textarea {
-  height: 150px;
-  resize: none;
-}
-
-.contact button {
-  background-color: #007bff;
+.contact p {
   color: lightgray;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
+  margin: 10px 0;
+  font-size: 2rem;
 }
 
-.contact button:hover {
-  background-color: #0056b3;
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.contact p strong {
+  margin-left: 15px;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact .fa-icon {
+  color: lightgray;
 }
 
 @media (prefers-color-scheme: light) {
   .contact h2 {
     color: black;
-  }
-
-  .contact input,
-  .contact textarea {
-    border: 1px solid black;
-  }
-
-  .contact button {
-    color: white;
   }
 }

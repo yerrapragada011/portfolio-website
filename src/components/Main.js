@@ -7,7 +7,7 @@ function Main() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowArrow(true)
-    }, 3000) 
+    }, 3000)
 
     return () => clearTimeout(timer)
   }, [])
@@ -19,7 +19,9 @@ function Main() {
       <div
         className={`arrow ${showArrow ? 'fade-in' : ''}`}
         onClick={() =>
-          document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
+          document
+            .getElementById('about')
+            .scrollIntoView({ behavior: 'smooth' })
         }
       >
         <svg
@@ -31,14 +33,14 @@ function Main() {
         >
           <path
             d='M12 2L12 22'
-            stroke='whitesmoke'
+            stroke='lightgray'
             strokeWidth='2'
             strokeLinecap='round'
             strokeLinejoin='round'
           />
           <path
             d='M5 15L12 22L19 15'
-            stroke='whitesmoke'
+            stroke='lightgray'
             strokeWidth='2'
             strokeLinecap='round'
             strokeLinejoin='round'

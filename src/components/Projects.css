@@ -58,6 +58,26 @@
   text-decoration: underline;
 }
 
+.project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.project-button {
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: darkgray;
+}
+
 @media (prefers-color-scheme: light) {
   .projects h2 {
     color: black;
@@ -71,5 +91,14 @@
   .project-card h3,
   .project-card p {
     color: black;
+  }
+
+  .project-button {
+    color: black;
+    border: 1px solid black;
+  }
+
+  .project-button:hover {
+    background-color: lightgray;
   }
 }
