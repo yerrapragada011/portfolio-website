@@ -34,12 +34,49 @@
   text-decoration: underline;
 }
 
-.contact .fa-icon {
+.icon-contact {
   color: lightgray;
+  font-size: 2rem;
+}
+
+.download-cv-button {
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 2rem;
+}
+
+.download-cv-button:hover {
+  background-color: darkgray;
+}
+
+.icon-download {
+  margin-right: 8px;
 }
 
 @media (prefers-color-scheme: light) {
   .contact h2 {
     color: black;
+  }
+
+  .contact p strong {
+    color: black;
+  }
+
+  .icon-contact {
+    color: black;
+  }
+
+  .download-cv-button {
+    color: black;
+    border: 1px solid black;
+  }
+
+  .download-cv-button:hover {
+    background-color: lightgray;
   }
 }

@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { faHtml5, faCss3Alt, faJs } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons' // GitHub icon
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons' // Upward facing square icon
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import './Projects.css'
 
 function Projects() {
