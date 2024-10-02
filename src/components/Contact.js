@@ -1,14 +1,21 @@
 import React from 'react'
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faPhone,
+  faDownload
+} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
   return (
     <section id='contact' className='contact roboto-regular'>
       <h2 className='roboto-regular'>Contact Me</h2>
+      <p>
+        <FontAwesomeIcon icon={faPhone} className='icon-contact' />
+        <strong>+1 (407) 757-7715</strong>
+      </p>
       <p>
         <FontAwesomeIcon icon={faEnvelope} className='icon-contact' />
         <strong>yerrapragada.agasthya@gmail.com</strong>

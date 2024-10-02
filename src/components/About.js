@@ -23,7 +23,8 @@ function About() {
       </p>
       <p className='roboto-regular'>
         I'm always exploring personal projects and improving my skills. Feel
-        free to contact me at <strong>yerrapragada.agasthya@gmail.com</strong>.
+        free to contact me at <strong>yerrapragada.agasthya@gmail.com</strong>{' '}
+        or call me at <strong>+1 (407) 757-7715</strong>.
       </p>
       <div className='technologies'>
         <FontAwesomeIcon icon={faJs} size='2x' />
