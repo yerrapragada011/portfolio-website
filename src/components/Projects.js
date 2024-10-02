@@ -64,7 +64,7 @@ function Projects() {
   )
 
   const fetchScreenshot = async (url) => {
-    const token = 'B1E3GWE-VY24SMK-QGR1053-3C87191'
+    const token = process.env.SCREENSHOT_TOKEN
     const apiUrl = `https://shot.screenshotapi.net/screenshot?token=${token}&url=${encodeURIComponent(
       url
     )}`
