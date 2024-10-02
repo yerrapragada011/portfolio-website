@@ -10,7 +10,7 @@
 
 .contact h2 {
   font-size: 2.5rem;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   color: lightgray;
 }
 
@@ -78,5 +78,11 @@
 
   .download-cv-button:hover {
     background-color: lightgray;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact p {
+    font-size: 1rem;
   }
 }
