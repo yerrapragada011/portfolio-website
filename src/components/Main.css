@@ -60,3 +60,20 @@
   animation: none;
   stroke: whitesmoke;
 }
+
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main h1 {
+    
+    font-size: 3rem;
+  }
+
+  .arrow {
+    margin-top: 200px;
+  }
+}
