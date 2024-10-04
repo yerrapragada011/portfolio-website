@@ -55,7 +55,7 @@ function Projects() {
         title: 'Todo List',
         description:
           'An application that allows users to create todos, create projects, edit todos, delete todos, mark todos as completed, and clear completed todos.',
-        demoLink: 'https://yerrapragada011.github.io/battleship/',
+        demoLink: 'https://yerrapragada011.github.io/todo-list/',
         githubLink: 'https://github.com/yerrapragada011/todo-list.git',
         techStack: [faHtml5, faCss3Alt, faJs]
       }

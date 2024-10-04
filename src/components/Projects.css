@@ -154,6 +154,8 @@
 @media (max-width: 768px) {
   .project-grid {
     grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .projects h2 {
