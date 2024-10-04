@@ -41,7 +41,7 @@ function Contact() {
         </a>
       </p>
       <p>
-        <a href='/Resume.pdf' download>
+        <a href='/Agasthya_Yerrapragada_Resume.pdf' download>
           <button className='download-cv-button'>
             <FontAwesomeIcon icon={faDownload} className='icon-download' />
             Download CV
