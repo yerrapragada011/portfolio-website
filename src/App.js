@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import './components/Space.css'
+import { Analytics } from '@vercel/analytics/react'
 import Header from './components/Header'
 import Main from './components/Main'
 import About from './components/About'
@@ -20,6 +21,7 @@ function App() {
         <Work />
         <Projects />
         <Contact />
+        <Analytics />
       </main>
     </div>
   )
