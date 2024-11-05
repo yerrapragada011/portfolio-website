@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJs, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons'
-import { faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faNodeJs, faPython } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 function About() {
@@ -27,6 +27,7 @@ function About() {
         or call me at <strong>+1 (407) 757-7715</strong>.
       </p>
       <div className='technologies'>
+        <FontAwesomeIcon icon={faPython} size='2x' />
         <FontAwesomeIcon icon={faJs} size='2x' />
         <FontAwesomeIcon icon={faHtml5} size='2x' />
         <FontAwesomeIcon icon={faCss3Alt} size='2x' />
