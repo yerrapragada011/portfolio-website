@@ -18,7 +18,7 @@ function About() {
       <p className='roboto-regular'>
         I hold a Bachelor's from the{' '}
         <strong>University of Central Florida</strong> and specialize in HTML,
-        CSS, JavaScript, React, and Node.js. I thrive in collaborative
+        CSS, JavaScript, Python, React, and Node.js. I thrive in collaborative
         environments and love learning new technologies.
       </p>
       <p className='roboto-regular'>
