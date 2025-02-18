@@ -2,32 +2,21 @@ import React, { useState, useEffect } from 'react'
 import './Main.css'
 
 function Main() {
-  const [showArrow, setShowArrow] = useState(false)
-  const [showText, setShowText] = useState(false)
+  const [showMain, setShowMain] = useState(false)
 
   useEffect(() => {
-    const textTimer = setTimeout(() => {
-      setShowText(true)
-    }, 1500)
+    const fadeInTimer = setTimeout(() => {
+      setShowMain(true)
+    }, 300)
 
-    const arrowTimer = setTimeout(() => {
-      setShowArrow(true)
-    }, 3000)
-
-    return () => {
-      clearTimeout(textTimer)
-      clearTimeout(arrowTimer)
-    }
+    return () => clearTimeout(fadeInTimer)
   }, [])
-
   return (
-    <section id="main" className="main">
+    <section id="main" className={`main ${showMain ? 'fade-in' : ''}`}>
       <h1 className="roboto-regular outlined-text">Agasthya Yerrapragada</h1>
-      <p className={`roboto-regular opacity ${showText ? 'fade-in' : ''}`}>
-        Full-stack developer
-      </p>
+      <p className="roboto-regular opacity fade-in">Full-stack developer</p>
       <div
-        className={`arrow ${showArrow ? 'fade-in' : ''}`}
+        className="arrow fade-in"
         onClick={() =>
           document
             .getElementById('about')

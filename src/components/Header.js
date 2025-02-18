@@ -4,15 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
-  const [showHeader, setShowHeader] = useState(false)
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+  const [showHeader, setShowHeader] = useState(false)
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const fadeInTimer = setTimeout(() => {
       setShowHeader(true)
-    }, 3000)
+    }, 300)
 
-    return () => clearTimeout(timer)
+    return () => clearTimeout(fadeInTimer)
   }, [])
 
   const toggleDrawer = () => {
