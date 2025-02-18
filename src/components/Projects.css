@@ -89,7 +89,12 @@
   width: 100%;
   max-width: 150px;
   height: auto;
-  border: 1px solid white;
+  outline: 2px solid slategray;
+  border-radius: 5px;
+}
+
+.project-image:hover {
+  opacity: 0.8;
 }
 
 .project-image-wrapper {
