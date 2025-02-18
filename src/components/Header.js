@@ -22,76 +22,76 @@ function Header() {
   return (
     <>
       <header className={`header ${showHeader ? 'fade-in' : ''}`}>
-        <div className='first-div'>
+        <div className="first-div">
           <p>
-            <a href='#main'>
-              <span className='material-symbols-outlined'>home</span>
+            <a href="#main">
+              <span className="material-symbols-outlined">home</span>
             </a>
           </p>
         </div>
-        <nav className='desktop-nav'>
+        <nav className="desktop-nav">
           <ul>
             <li>
-              <a href='#about' className='roboto-regular'>
+              <a href="#about" className="roboto-regular">
                 About
               </a>
             </li>
             <li>
-              <a href='#work' className='roboto-regular'>
+              <a href="#work" className="roboto-regular">
                 Work
               </a>
             </li>
             <li>
-              <a href='#projects' className='roboto-regular'>
+              <a href="#projects" className="roboto-regular">
                 Projects
               </a>
             </li>
             <li>
-              <a href='#contact' className='roboto-regular'>
+              <a href="#contact" className="roboto-regular">
                 Contact
               </a>
             </li>
           </ul>
         </nav>
-        <div className='hamburger-icon' onClick={toggleDrawer}>
+        <div className="hamburger-icon" onClick={toggleDrawer}>
           <FontAwesomeIcon icon={faBars} />
         </div>
       </header>
 
       <div className={`drawer ${isDrawerOpen ? 'open' : ''}`}>
-        <button className='close-drawer' onClick={toggleDrawer}>
+        <button className="close-drawer" onClick={toggleDrawer}>
           <FontAwesomeIcon icon={faTimes} />
         </button>
-        <nav className='drawer-nav'>
+        <nav className="drawer-nav">
           <ul>
             <li>
               <a
-                href='#about'
+                href="#about"
                 onClick={toggleDrawer}
-                className='roboto-regular'
+                className="roboto-regular"
               >
                 About
               </a>
             </li>
             <li>
-              <a href='#work' onClick={toggleDrawer} className='roboto-regular'>
+              <a href="#work" onClick={toggleDrawer} className="roboto-regular">
                 Work
               </a>
             </li>
             <li>
               <a
-                href='#projects'
+                href="#projects"
                 onClick={toggleDrawer}
-                className='roboto-regular'
+                className="roboto-regular"
               >
                 Projects
               </a>
             </li>
             <li>
               <a
-                href='#contact'
+                href="#contact"
                 onClick={toggleDrawer}
-                className='roboto-regular'
+                className="roboto-regular"
               >
                 Contact
               </a>

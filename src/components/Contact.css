@@ -6,16 +6,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .contact h2 {
   font-size: 2.5rem;
+  font-weight: 500;
   margin-bottom: 50px;
-  color: lightgray;
+  color: slategray;
 }
 
 .contact p {
-  color: lightgray;
+  color: white;
   margin: 10px 0;
   font-size: 1.5rem;
 }
@@ -35,13 +37,13 @@
 }
 
 .icon-contact {
-  color: lightgray;
+  color: white;
   font-size: 2rem;
 }
 
 .download-cv-button {
   padding: 10px 20px;
-  border: 1px solid lightgray;
+  border: 1px solid white;
   border-radius: 5px;
   background-color: transparent;
   color: white;
@@ -51,34 +53,24 @@
 }
 
 .download-cv-button:hover {
-  background-color: darkgray;
+  background-color: slategray;
 }
 
 .icon-download {
   margin-right: 8px;
 }
 
-@media (prefers-color-scheme: light) {
-  .contact h2 {
-    color: black;
-  }
-
-  .contact p strong {
-    color: black;
-  }
-
-  .icon-contact {
-    color: black;
-  }
-
-  .download-cv-button {
-    color: black;
-    border: 1px solid black;
-  }
-
-  .download-cv-button:hover {
-    background-color: lightgray;
-  }
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  outline: 5px solid white;
+  outline-offset: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 140, 0);
 }
 
 @media (max-width: 480px) {

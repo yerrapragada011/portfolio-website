@@ -10,15 +10,16 @@
 
 .projects h2 {
   font-size: 2.5rem;
+  font-weight: 500;
   margin-top: 50px;
   margin-bottom: 50px;
-  color: lightgray;
+  color: slategray;
 }
 
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 30px;
   margin-top: 30px;
   margin-left: 50px;
   margin-right: 50px;
@@ -26,11 +27,12 @@
 
 .project-card {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 140, 0);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border: 1px solid lightgray;
+  outline: 5px solid white;
+  outline-offset: 5px;
   transition: transform 0.3s ease;
 }
 
@@ -45,12 +47,12 @@
 
 .project-card h3 {
   font-size: 1.5rem;
-  color: lightgray;
+  color: white;
   margin-bottom: 10px;
 }
 
 .project-card p {
-  color: lightgray;
+  color: white;
   font-size: 1rem;
   margin-bottom: 15px;
 }
@@ -62,9 +64,9 @@
 
 .project-button {
   padding: 10px 20px;
-  border: 1px solid lightgray;
+  border: 1px solid white;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: slategray;
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -80,14 +82,14 @@
 }
 
 .project-button:hover {
-  background-color: darkgray;
+  background-color: rgba(112, 128, 144, 0.5);
 }
 
 .project-image {
   width: 100%;
   max-width: 150px;
   height: auto;
-  border: 1px solid lightgray;
+  border: 1px solid white;
 }
 
 .project-image-wrapper {
@@ -105,50 +107,13 @@
 
 .project-icon {
   margin: 0 5px;
-  color: lightgray;
+  color: slategray;
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
 .project-icon:hover {
-  color: white;
-}
-
-@media (prefers-color-scheme: light) {
-  .projects h2 {
-    color: black;
-  }
-
-  .project-card {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid black;
-  }
-
-  .project-card h3,
-  .project-card p {
-    color: black;
-  }
-
-  .project-button {
-    color: black;
-    border: 1px solid black;
-  }
-
-  .project-button:hover {
-    background-color: lightgray;
-  }
-
-  .project-image {
-    border: 1px solid black;
-  }
-
-  .project-icon {
-    color: black;
-  }
-
-  .project-icon:hover {
-    color: darkgray;
-  }
+  color: whitesmoke;
 }
 
 @media (max-width: 768px) {

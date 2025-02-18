@@ -9,36 +9,40 @@
 }
 
 .main h1 {
-  font-size: 5rem;
-  color: whitesmoke;
+  font-size: 8rem;
+  font-weight: 900;
+  color: white;
+  outline: 5px solid white;
+  outline-offset: 10px;
+  background-color: rgb(255, 140, 0);
+  padding: 20px;
+  border-radius: 10px;
+  letter-spacing: 4px;
 }
 
 .main p {
   align-self: center;
-  font-size: 1.5rem;
-  color: lightgray;
+  font-size: 2rem;
+  font-weight: 500;
+  color: slategray;
+  padding: 5px;
 }
 
-@media (prefers-color-scheme: light) {
-  .main h1 {
-    color: black;
-  }
-
-  .main p {
-    color: black;
-  }
-
-  .arrow svg path {
-    stroke: black;
-  }
+.opacity {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 
 .arrow {
-  margin-top: 400px;
+  margin-top: 300px;
   cursor: pointer;
   opacity: 0;
-  transition: opacity 0.5s ease-in;
   animation: moveUpDown 2s ease-in-out infinite;
+  transition: opacity 0.5s ease-in;
+}
+
+.arrow:hover svg path {
+  stroke: slategray;
 }
 
 .fade-in {
@@ -58,19 +62,21 @@
 .arrow:hover {
   transform: translateY(5px);
   animation: none;
-  stroke: whitesmoke;
 }
 
 @media (max-width: 768px) {
   .main h1 {
     font-size: 4rem;
+    outline: 4px solid white;
+    outline-offset: 8px;
   }
 }
 
 @media (max-width: 480px) {
   .main h1 {
-    
-    font-size: 3rem;
+    font-size: 2.5rem;
+    outline: 3px solid white;
+    outline-offset: 6px;
   }
 
   .arrow {
