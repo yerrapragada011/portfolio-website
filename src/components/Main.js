@@ -47,6 +47,7 @@ function Main() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
+            strokeOpacity={0.8}
           />
           <path
             d="M5 15L12 22L19 15"
@@ -54,6 +55,7 @@ function Main() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
+            strokeOpacity={0.8}
           />
         </svg>
       </div>
