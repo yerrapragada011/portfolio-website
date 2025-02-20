@@ -19,7 +19,7 @@
 .work-item {
   width: 100%;
   max-width: 800px;
-  background-color: rgba(255, 140, 0, 0.8);
+  background-color: rgba(0, 102, 204, 0.8);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@
 
 .work-item p.company {
   font-size: 1.2rem;
-  color: slategray;
+  color: darkblue;
   margin-bottom: 15px;
 }
 

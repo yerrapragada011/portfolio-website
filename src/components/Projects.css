@@ -27,7 +27,7 @@
 
 .project-card {
   display: flex;
-  background-color: rgba(255, 140, 0, 0.8);
+  background-color: rgba(0, 102, 204, 0.8);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -66,7 +66,7 @@
   padding: 10px 20px;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: slategray;
+  background-color: darkblue;
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -89,7 +89,7 @@
   width: 100%;
   max-width: 150px;
   height: auto;
-  outline: 2px solid slategray;
+  outline: 2px solid darkblue;
   border-radius: 5px;
 }
 
@@ -112,7 +112,7 @@
 
 .project-icon {
   margin: 0 5px;
-  color: slategray;
+  color: darkblue;
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }

@@ -32,7 +32,7 @@ function Main() {
         >
           <path
             d="M12 2L12 22"
-            stroke="darkorange"
+            stroke="navy"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -40,7 +40,7 @@ function Main() {
           />
           <path
             d="M5 15L12 22L19 15"
-            stroke="darkorange"
+            stroke="navy"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
