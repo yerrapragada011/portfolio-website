@@ -45,7 +45,7 @@
   padding: 10px 20px;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: darkblue;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -53,7 +53,7 @@
 }
 
 .download-cv-button:hover {
-  background-color: slategray;
+  background-color: rgba(112, 128, 144, 0.5);
 }
 
 .icon-download {
