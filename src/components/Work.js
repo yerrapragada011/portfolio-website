@@ -21,7 +21,7 @@ function Work() {
           </li>
           <li>
             Building a scalable backend with Express.js, enabling seamless
-            communication with the Shopify Admin GraphQL API.
+            communication with the Shopify GraphQL Admin API.
           </li>
           <li>
             Managing product listings, inventory, and order processing through
