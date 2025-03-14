@@ -8,7 +8,7 @@ function Work() {
 
       <div className="work-item">
         <h3>Full Stack Developer</h3>
-        <p className="company">Ecommerce Store | February 2025 - Current</p>
+        <p className="company">L. E. Fent LLC | March 2025 - Current</p>
         <ul>
           <li>
             Developing a full-stack E-commerce website using React for the
@@ -34,6 +34,11 @@ function Work() {
           <li>
             Developing a mobile-responsive and SEO-friendly UI to maximize
             engagement and visibility.
+          </li>
+          <li>
+            Integrating secure payment processing and user authentication
+            directly through Shopify to streamline transactions and enhance
+            security.
           </li>
         </ul>
       </div>
