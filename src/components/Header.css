@@ -70,7 +70,7 @@
 }
 
 .desktop-nav ul a:hover {
-  color: slategray;
+  color: darkblue;
 }
 
 .hamburger-icon {
@@ -79,6 +79,12 @@
   margin-right: 30px;
   cursor: pointer;
   color: white;
+}
+
+.hamburger-icon:hover {
+  color: darkblue;
+  transform: translateY(5px);
+  transition: transform 0.3s ease;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,152 @@
+.sky {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.sky-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s ease-in-out;
+}
+
+.sky-day {
+  background: linear-gradient(to bottom, #87ceeb 0%, #b0e0e6 40%, #ffffff 100%);
+  opacity: 1;
+}
+
+.sky-sunset {
+  background: linear-gradient(to bottom, #ff8c00 0%, #ff4500 40%, #800080 100%);
+  opacity: 0;
+}
+
+.sky-night {
+  background: linear-gradient(to bottom, #0b1a40 0%, #161d36 40%, #000000 100%);
+  opacity: 0;
+}
+
+.sun {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, #ffd700, #ffa500);
+  border-radius: 50%;
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+.sun.hide {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+}
+
+.moon {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #ddd, #bbb);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+.moon.show {
+  opacity: 1;
+  transform: translateY(-30px);
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+}
+
+.clouds {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.clouds::before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: -200px;
+  width: 150px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 30px -10px 0 20px #fff, 60px 10px 0 30px #fff,
+    90px -20px 0 25px #fff;
+  animation: moveClouds 60s linear infinite;
+  opacity: 0.7;
+}
+
+.clouds::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -250px;
+  width: 120px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 25px -8px 0 18px #fff, 50px 8px 0 25px #fff,
+    80px -15px 0 20px #fff;
+  animation: moveClouds 80s linear infinite;
+  opacity: 0.6;
+}
+
+@keyframes moveClouds {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.stars::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  box-shadow: 10px 20px white, 50px 30px white, 100px 70px white,
+    150px 100px white, 200px 130px white, 250px 160px white, 300px 190px white,
+    350px 220px white, 400px 250px white, 450px 280px white, 500px 310px white,
+    550px 340px white;
+  animation: twinkle 2s infinite alternate;
+}
+
+.stars::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: white;
+  box-shadow: 20px 40px white, 60px 80px white, 120px 140px white,
+    180px 200px white, 240px 260px white, 300px 320px white, 360px 380px white,
+    420px 440px white, 480px 500px white;
+  animation: twinkle 3s infinite alternate;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
