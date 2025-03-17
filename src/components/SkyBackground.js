@@ -25,7 +25,11 @@ const SkyBackground = () => {
         style={{ opacity: scrollY >= 3000 ? 1 : 0 }}
       ></div>
 
-      {scrollY < 700 && <div className="clouds"></div>}
+      {scrollY < 700 && (
+        <div className="clouds">
+          <div className="cloud-bottom-right"></div>
+        </div>
+      )}
       {scrollY >= 3000 && <div className="stars"></div>}
 
       <div className={`sun ${scrollY >= 700 ? 'hide' : ''}`}></div>
