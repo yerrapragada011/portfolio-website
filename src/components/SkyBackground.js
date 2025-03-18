@@ -14,25 +14,25 @@ const SkyBackground = () => {
     <div className="sky">
       <div
         className="sky-layer sky-day"
-        style={{ opacity: scrollY < 700 ? 1 : 0 }}
+        style={{ opacity: scrollY < 1500 ? 1 : 0 }}
       ></div>
       <div
-        className="sky-layer sky-sunset"
-        style={{ opacity: scrollY >= 700 && scrollY < 3000 ? 1 : 0 }}
+        className="sky-layer sky-transition"
+        style={{ opacity: scrollY >= 1500 && scrollY < 3000 ? 1 : 0 }}
       ></div>
       <div
         className="sky-layer sky-night"
         style={{ opacity: scrollY >= 3000 ? 1 : 0 }}
       ></div>
 
-      {scrollY < 700 && (
+      {scrollY < 1500 && (
         <div className="clouds">
           <div className="cloud-bottom-right"></div>
         </div>
       )}
       {scrollY >= 3000 && <div className="stars"></div>}
 
-      <div className={`sun ${scrollY >= 700 ? 'hide' : ''}`}></div>
+      <div className={`sun ${scrollY >= 1500 ? 'hide' : ''}`}></div>
       <div className={`moon ${scrollY >= 3000 ? 'show' : ''}`}></div>
     </div>
   )

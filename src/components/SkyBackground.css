@@ -19,8 +19,8 @@
   opacity: 1;
 }
 
-.sky-sunset {
-  background: linear-gradient(to bottom, #ff8c00 0%, #ff4500 40%, #800080 100%);
+.sky-transition {
+  background: linear-gradient(to bottom, #ff8c00 0%, #b05750 50%, #0b1a40 100%);
   opacity: 0;
 }
 
