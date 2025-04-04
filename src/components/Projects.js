@@ -10,6 +10,16 @@ import './Projects.css'
 function Projects() {
   const projects = [
     {
+      title: 'Ecommerce Store',
+      description:
+        'A full-stack ecommerce website using Shopify Admin GraphQL API, Storefront GraphQL API, React, and Express.js.',
+      demoLink: 'https://lefent.com',
+      githubLink:
+        'https://github.com/yerrapragada011/ecommerce-project-public.git',
+      techStack: [faReact, faNodeJs, faDatabase],
+      image: '/images/ecommerce_store.png',
+    },
+    {
       title: 'Social Media App',
       description:
         'An application that allows users to register, login, or login with GitHub. Includes all CRUD operations for posts, comments, followers, and likes.',
@@ -61,6 +71,15 @@ function Projects() {
       githubLink: 'https://github.com/yerrapragada011/todo-list.git',
       techStack: [faHtml5, faCss3Alt, faJs],
       image: '/images/todo_list.png',
+    },
+    {
+      title: 'Tic-Tac-Toe',
+      description:
+        'A simple tic-tac-toe game built with HTML, CSS, and JavaScript.',
+      demoLink: 'https://yerrapragada011.github.io/tic-tac-toe/',
+      githubLink: 'https://github.com/yerrapragada011/tic-tac-toe',
+      techStack: [faHtml5, faCss3Alt, faJs],
+      image: '/images/tic_tac_toe.png',
     },
   ]
 

@@ -53,6 +53,15 @@
   margin-bottom: 10px;
 }
 
+.company-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: darkblue;
+  font-size: 1.2rem;
+  margin: -10px 0;
+}
+
 @media (max-width: 768px) {
   .work-section {
     margin: 0px 20px;

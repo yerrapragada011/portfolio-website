@@ -7,36 +7,44 @@ function Work() {
       <h2 className="roboto-regular">Work Experience</h2>
 
       <div className="work-item">
-        <h3>Full Stack Developer</h3>
-        <p className="company">L. E. Fent LLC | March 2025 - Current</p>
+        <h3>Founder & Full Stack Developer</h3>
+        <div className="company-link">
+          <a
+            href="https://lefent.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            L. E. Fent LLC
+          </a>
+          <p>| April 2025 - Current</p>
+        </div>
         <ul>
           <li>
-            Developing a full-stack E-commerce website using React for the
-            frontend, Express.js for the backend, and the Shopify GraphQL Admin
-            API.
+            Developed a full-stack E-commerce website using React for the
+            frontend, Express.js for the backend, and the Shopify GraphQL APIs.
           </li>
           <li>
-            Designing and integrating a custom Shopify storefront to enhance
-            user experience and optimize product displays.
+            Designed and integrated a custom Shopify storefront to enhance user
+            experience and optimize product displays.
           </li>
           <li>
-            Building a scalable backend with Express.js, enabling seamless
-            communication with the Shopify GraphQL Admin API.
+            Built a scalable backend with Express.js, enabling seamless
+            communication with Shopify GraphQL APIs.
           </li>
           <li>
-            Managing product listings, inventory, and order processing through
-            Shopify's API.
+            Managed product listings, inventory, and order processing through
+            Shopify’s GraphQL APIs.
           </li>
           <li>
-            Implementing real-time data fetching and dynamic UI updates for
+            Implemented real-time data fetching and dynamic UI updates for
             improved responsiveness.
           </li>
           <li>
-            Developing a mobile-responsive and SEO-friendly UI to maximize
+            Developed a mobile-responsive and SEO-friendly UI to maximize
             engagement and visibility.
           </li>
           <li>
-            Integrating secure payment processing and user authentication
+            Integrated secure payment processing and user authentication
             directly through Shopify to streamline transactions and enhance
             security.
           </li>
