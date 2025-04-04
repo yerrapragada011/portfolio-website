@@ -56,6 +56,24 @@ function Projects() {
       image: '/images/wheres_waldo.png',
     },
     {
+      title: 'File Uploader',
+      description:
+        'A file management app where users can securely upload, manage, and organize files into folders, with Cloudinary integration to store files and Prisma for session management and database interactions.',
+      demoLink: 'https://file-uploader-production-6ccf.up.railway.app/',
+      githubLink: 'https://github.com/yerrapragada011/file-uploader',
+      techStack: [faHtml5, faCss3Alt, faNodeJs],
+      image: '/images/file_uploader.png',
+    },
+    {
+      title: 'Inventory Application',
+      description:
+        'A game management app that allows users to track and manage games, genres, and developers, with the ability to associate multiple genres and developers with each game.',
+      demoLink: 'https://inventory-application-production-4bde.up.railway.app/',
+      githubLink: 'https://github.com/yerrapragada011/inventory-application',
+      techStack: [faHtml5, faCss3Alt, faNodeJs],
+      image: '/images/inventory_application.png',
+    },
+    {
       title: 'Battleship',
       description: `A game application that allows users to play against a computer. Whoever sinks all the other user's ships first wins!`,
       demoLink: 'https://yerrapragada011.github.io/battleship/',
@@ -75,7 +93,7 @@ function Projects() {
     {
       title: 'Tic-Tac-Toe',
       description:
-        'A simple tic-tac-toe game built with HTML, CSS, and JavaScript.',
+        'A classic two-player Tic-Tac-Toe game featuring an interactive and responsive interface. Players can take turns marking their symbols (X or O) on a 3x3 grid until one player wins or the game ends in a draw.',
       demoLink: 'https://yerrapragada011.github.io/tic-tac-toe/',
       githubLink: 'https://github.com/yerrapragada011/tic-tac-toe',
       techStack: [faHtml5, faCss3Alt, faJs],
