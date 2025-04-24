@@ -16,7 +16,7 @@ function Work() {
           >
             L. E. Fent LLC
           </a>
-          <p>| April 2025 - Current</p>
+          <p>| January 2025 - Current</p>
         </div>
         <ul>
           <li>
